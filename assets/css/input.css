@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    /* btns */
+    .btn {
+        @apply inline-block px-6 py-3 duration-300;
+    }
+    .btn-sm {
+        @apply inline-block px-4 py-1 duration-300;
+    }
+    .btn-lg {
+        @apply inline-block px-8 py-4 duration-300;
+    }
+
+    .btn-primary {
+        @apply bg-primary text-white hover:bg-primary-dark;
+    }
+    .btn-secondary {
+        @apply bg-secondary text-white hover:bg-secondary-dark;
+    }
+    .btn-success {
+        @apply bg-success text-white hover:bg-success-dark;
+    }
+    .btn-danger {
+        @apply bg-danger text-white hover:bg-danger-dark;
+    }
+    .btn-warning {
+        @apply bg-warning text-white hover:bg-warning-dark;
+    }
+    .btn-info {
+        @apply bg-info text-white hover:bg-info-dark;
+    }
+    .btn-dark {
+        @apply bg-dark text-white hover:bg-dark-dark;
+    }
+    .btn-light {
+        @apply bg-light text-white hover:bg-light-dark;
+    }
+
+    .btn-outline-primary {
+        @apply border border-primary text-primary hover:bg-primary hover:text-white;
+    }
+    .btn-outline-secondary {
+        @apply border border-secondary text-secondary hover:bg-secondary hover:text-white;
+    }
+    .btn-outline-success {
+        @apply border border-success text-success hover:bg-success hover:text-white;
+    }
+    .btn-outline-danger {
+        @apply border border-danger text-danger hover:bg-danger hover:text-white;
+    }
+    .btn-outline-warning {
+        @apply border border-warning text-warning hover:bg-warning hover:text-white;
+    }
+    .btn-outline-info {
+        @apply border border-info text-info hover:bg-info hover:text-white;
+    }
+    .btn-outline-dark {
+        @apply border border-dark text-dark hover:bg-dark hover:text-white;
+    }
+    .btn-outline-light {
+        @apply border border-light text-light hover:bg-light hover:text-white;
+    }
+
+    /* grid */
+    .g-sm {
+        @apply grid sm:grid-cols-12 gap-8;
+    }
+    .g-md {
+        @apply grid md:grid-cols-12 gap-8;
+    } 
+    .g-lg {
+        @apply grid lg:grid-cols-12 gap-8;
+    }
+    .g-xl {
+        @apply grid xl:grid-cols-12 gap-8;
+    }
+    
+}
